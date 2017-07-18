@@ -1,19 +1,19 @@
-# Jobs
-# Springfield Nuclear Power Plant
-- company: Springfield Nuclear Power Plant
-  position: Safety Inspector
-  duration: Nov, 1980 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>Ate lots of donuts</li><li>Fell asleep rarely</li><li>Left promptly at end of day (sometimes earlier)</li></ul>
+- company: 이음소시어스
+  position: iOS, Backend
+  duration: 2016년 8월 &mdash; 현재
+  summary: 아임에잇은 한국의 대표적인 소개팅 앱 중 하나로 직장인을 위한 소개팅 서비스입니다. 사용자의 행위에 따라 알고리즘이 적용돼 가장 매칭될 확률이 높은 상대방을 골라줍니다.<br><br>맺음은 아임에잇, 이음의 회원풀을 활용하는 결혼 정보 서비스입니다. 맺음 매니저들을 대상으로 하는 관리자 백오피스가 맺음의 메인 서비스입니다.<br><br>백엔드 개발자로 입사하여 초기 iOS 클라이언트 개발자 인력이 부족해 아임에잇 iOS앱 개발을 맡아 추가 기능 개발, 유지보수 및 Objective-C 에서 Swift 로의 변환 작업을 진행했습니다. 이후 다시 백엔드 개발 인력이 부족해 12월부터 다시 주 포지션인 백엔드 개발자로 돌아왔고 Rails, React 로 개발되어있는 맺음 서비스를 맡아 기능 추가 및 유지보수를 진행하고 있습니다. 또한 AWS 인프라를 관리하고 유지 보수하고 있습니다.
 
-# Windmill Crank Operator
-- company: Sir Putt-A-Lot's Merrie Olde Fun Centre
-  position: Safety Inspector
-  duration:  Jun, 1978 &mdash; Sept, 1979
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: 네고
+  position: iOS, Backend
+  duration:  2016년 3월 &mdash; 2016년 7월
+  summary: 네고는 사용자가 원하는 상품을 검색해서 위시리스트에 추가하면 선택한 제품이 다를지라도 알고리즘에 따라 해당 제품의 제품번호를 추출해 같은 상품끼리 통합 관리를 합니다. 이후 크롤링 엔진이 정해진 규칙에 따라서 작동하고 가격 정보를 저장하여 제품의 가격 변동 그래프를 확인할 수 있도록 하며 사용자가 원하는 금액이나 변동폭이 발견될때 알림을 주는 서비스입니다.<br><br>파이썬 Flask 를 이용한 API 서버 구축, AWS 인프라 구축, 데이터베이스 설계 및 최적화 작업, 개발팀 리딩이 주된 작업이었습니다. 초기 환경 구축 및 릴리즈 이후에는 0.6 맨데이 정도를 Swift 를 이용한 iOS 앱 개발 및 유지보수에 할애하여 두가지 작업을 병행했습니다. 일정 관리는 애자일 기법중 스크럼 방식을 활용했습니다. 서비스 배포 범위는 린하게 잡고 빠른 배포와 빠른 검증을 통해 푸시 정책이나 UI/UX 를 여러가지 방법으로 수정하는 등의 시도를 해봤습니다. 관리 툴로는 트렐로를 사용했으며 스프린트 단위는 1주 -> 2주였습니다.
 
+- company: 레드아이스
+  position: Backend, Frontend
+  duration: 2015년 7월  &mdash; 2016년 2월
+  summary: Myrics 는 글로벌 소설 플랫폼입니다. 유사한 서비스로는 일본의 코미코가 있습니다. 만화까지 취급하는 코미코와는 달리 소설의 종류를 좀 더 세분화하는 방법으로 소설에 많은 집중을 하고있습니다. 일러스트가 결합된 소설까지 연재를 할 수 있는 플랫폼입니다. 중국, 대만, 미국에 처음 릴리즈 됐습니다.<br><br>파이썬 Flask 를 이용한 API 서버구축, ES6 를 이용한 프론트엔드 개발, 데이터베이스 설계 작업, 관리자 백오피스 설계 및 개발 작업이 주된 작업이었습니다. 일정 관리는 애자일 기법중 스크럼 방식을 활용했습니다. 서비스 배포 범위는 린하게 잡고 빠른 배포와 빠른 검증을 통해 결제 정책이나 UI/UX 를 여러가지 방법으로 수정하는 등의 시도를 해봤습니다. 관리 툴로는 지라를 사용했으며 스프린트 단위는 2주였습니다.
 
-# Front Desk Attendant
-- company: Simpson Lazer Tag
-  position: Front Desk Attendant
-  duration:   Jun, 1975  &mdash; May, 1978
-  summary: Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.
+- company: 그리드잇
+  position: Backend
+  duration: 2015년 1월  &mdash; 2015년 6월
+  summary: 파이썬 Flask 를 이용한 API 서버구축이 주된 작업이었습니다.
