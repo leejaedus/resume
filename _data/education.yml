@@ -1,6 +1,17 @@
-# Degree
-- degree: Associates Degree, Business Management
-  uni: Springfield College
-  year: 1984 &mdash; 1986
-  awards: Quickest to fall asleep
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: 기계공학부
+  uni: 중앙대학교 서울캠퍼스
+  year: 2014 &mdash; 휴학
+  awards:
+  summary: "
+    &mdash; [2016] 11회 앱잼 생활 분야 우수상<br>
+  "
+
+- degree: 정보통신과
+  uni: 선린 인터넷 고등학교
+  year: 2011 &mdash; 2014
+  awards: 
+  summary: "
+    &mdash; [2012] 정보보호올림피아드 은상<br>
+    &mdash; [2012] 디지털콘텐츠 경진대회 동상<br>
+    &mdash; [2011] 정보보호올림피아드 동상<br>
+    "
