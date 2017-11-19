@@ -13,7 +13,8 @@ resume_avatar:                  "true"
 resume_name:                    "이재연"
 resume_title:                   "Backend · Frontend · iOS Developer"
 resume_contact_email:           "leejaeduss@gmail.com"
-resume_header_intro: "23&nbsp;&nbsp;·&nbsp;&nbsp;1995.04.17&nbsp;&nbsp;·&nbsp;&nbsp;leejaeduss@gmail.com"
+resume_header_message: "대체 복무로 근무중입니다. 2019년 까지 방위산업체에서만 근무가 가능합니다."
+resume_header_intro: "산업기능요원&nbsp;&nbsp;·&nbsp;&nbsp;23&nbsp;&nbsp;·&nbsp;&nbsp;1995.04.17&nbsp;&nbsp;·&nbsp;&nbsp;leejaeduss@gmail.com"
 resume_looking_for_work:        "yes"
 
 # Decide which sections to use
