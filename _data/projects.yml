@@ -1,12 +1,108 @@
-# Projects
-# donutfinder.io
-- project: donutfinder.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  description: Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.
+- project: 팀 프로젝트 1
+  duration: 2017.8 &mdash; 현재
+  stack: Swift 4, RxSwift, Event Pub/Sub, Realm, GRPC
+  tasks:
+    - Swift 4 를 사용하여 앱 코드 작성
+    - RxSwift 의 Observable 및 Driver 를 사용하여 모든 Stream 처리
+    - RxSwift 의 Single trait 를 사용하여 모든 Request 처리
+    - GRPC 를 통한 API 통신
+    - protocol oriented, extension 적극 활용
+    - Snapkit 를 사용하여 View 간의 Auto Layout 관리
 
-#Springfield Donut Eater's User Group
-- project: Springfield Donut Eater's User Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  description: DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.
+- project: 사내 신규 프로젝트 1
+  duration: 2017.6 &mdash; 현재
+  stack: PHP 7.1, Laravel, React, Webpack, Redux, Amazon EC2, Amazon RDS, Amazon S3, Mysql 5.7
+  tasks:
+    - Laravel 환경 API 서버 구축
+    - AWS 인프라 작업
+    - Redux + React 환경 구축
+    - Mysql 5.7 의 JSON type 을 활용한 NoSQL 패턴 일부 사용
+    - N+1 쿼리 문제 해결을 위해 join 최적화
+    - "mysql: 쿼리 플랜 분석 및 최적화"
+
+- project: 사내 해카톤 프로젝트
+  duration: 2017.9 &mdash; 2017.10
+  stack: React, Webpack, TypeScript, Redux, react-script
+  tasks:
+    - Redux + React 환경 구축
+    - fully Stateless component, fullly redux state 패턴 사용
+    - react-script 를 사용해 TypeScript 로 빌드 설정 및 사용
+
+- project: 맺음
+  duration: 2017.1 &mdash; 현재
+  stack: Rubu On Rails 4, React, Amazon EC2, Amazon RDS, Amazon S3, postgresql, nginx, sidekiq
+  tasks:
+    - 순수 React 를 사용한 어드민 프론트엔드 앱 구축
+    - browserify 를 이용한 JSX -> ES5 빌드 규칙 적용
+    - ActiveRecord 를 사용해 complex query 작성
+    - N+1 쿼리 문제 해결을 위해 join + includes 최적화
+    - 비동기 작업 및 배치 작업을 위한 sidekiq schedule 관리
+    - capistrano 를 이용한 배포 자동화
+    - "postgresql: 쿼리 플랜 분석 및 최적화"
+    - "postgresql: 인덱스를 통한 processing time 최적화"
+    - 아임에잇, 이음, 맺음의 전체적인 AWS 인프라 유지 및 유지보수 담당
+
+- project: 아임에잇
+  duration: 2016.8 &mdash; 2016.12
+  stack: Swift, Objective-C, PromiseKit, Alamofire, Sketch, zeplin
+  tasks:
+    - Objective-C 기반 앱 Swift 3 로 포팅
+    - Swift 3 PromiseKit 을 이용한 Promise 패턴 도입
+    - StoryBoard + Auto Layout 적극 사용
+    - protocol oriented, extension 적극 활용
+    - Zeplin 을 사용해 Sketch 를 사용하는 디자인팀과 협업
+
+- project: 네고
+  duration: 2016.3 &mdash; 2016.7
+  stack: Amazon ELB + Auto Scailing, Amazon EC2, Amazon RDS, Amazon S3, postgresql, nginx, fabric, gunicorn, Flask, SQLAlchemy, celery, rabbitmq, Swift, Alamofire
+  tasks:
+    - "Flask 를 이용한 API 구축"
+    - "fabric + EC2 를 이용한 배포 자동화"
+    - 전체적인 AWS 인프라 유지 및 유지보수 담당
+    - "SQLAlchemy: N+1 쿼리 문제 해결을 위한 join + eager loading 최적화"
+    - "비동기 작업 및 배치 작업을 위한 Celery task 관리"
+    - "postgresql: 쿼리 플랜 분석 및 최적화"
+    - "postgresql: 인덱스를 통한 processing time 최적화"
+    - 효과적인 크롤링을 위한 multi processing 작업 관리
+    - 크롤링 순차적인 결과 취합을 위한 lock 구현
+    - Swift 2, Storyboard 를 사용한 iOS 앱 구축
+
+- project: Myrics
+  duration: 2015.7 &mdash; 2016.2
+  stack: Amazon ELB + Auto Scailing, Amazon EC2, Amazon RDS, Amazon S3, postgresql, nginx, fabric, python2, uwsgi, flask, SQLAlchemy, celery, rabbitmq
+  tasks:
+    - "Flask 를 이용한 API 구축"
+    - "fabric + EC2 를 이용한 배포 자동화"
+    - "SQLAlchemy: N+1 쿼리 문제 해결을 위한 join + eager loading 최적화"
+    - "비동기 작업 및 배치 작업을 위한 Celery task 관리"
+    - "postgresql: 쿼리 플랜 분석 및 최적화"
+    - "postgresql: 인덱스를 통한 processing time 최적화"
+    - "jquery + es6 를 이용해 MVC 패턴 작성"
+
+- project: 품번
+  duration: 2015.4 &mdash; 2015.6
+  stack: Flask, Python2, ES5, jQuery, scss, swift
+  tasks:
+    - 웹뷰를 사용한 하이브리드 앱
+    - 최저가 변동 체크 크롤러 작성
+    - GCM, APNS 를 이용한 가격 변동 푸시 알림
+
+- project: 제보페이지 - 오늘뭐먹지?
+  duration: 2015.2 &mdash; 2015.4
+  stack: ES5, jQuery, AngularJS, jade, less
+  tasks:
+    - AngularJs Router 를 사용해서 SPA 형태 구축
+    - 파일업로드 기능을 포함한 제보 API 구축
+    - vultr 서버 호스팅
+
+- project: Copyright Game – delopiA
+  duration: 2012.7 &mdash; 2012.9
+  stack: PHP 5.3, ES5, jQuery, bootstrap
+  tasks:
+    - SPA, 저작권 문제들을 미니게임 형식으로 제공합니다.
+
+- project: Wargame - delopiA
+  duration: 2012.3 &mdash; 2012.6
+  stack: PHP 5.3, ES5, jQuery, bootstrap
+  tasks:
+    - 모의 웹 해킹 문제들을 사용자들에게 제공 및 해답, 질문 공유를 위한 게시판 기능을 제공합니다.
