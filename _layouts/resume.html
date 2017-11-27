@@ -64,6 +64,26 @@
 
     </section>
     <!-- end Experience -->
+    {% endif %} {% if site.resume_section_associations %}
+    <!-- begin Associations -->
+    <section class="content-section">
+
+      <header class="section-header">
+        <h2>Associations</h2>
+      </header>
+
+      {% for association in site.data.associations %}
+      <div class="resume-item">
+        <h3 class="resume-item-title">
+          <a href="{{ association.link }}" target="_blank">{{ association.organization }}</a>
+        </h3>
+        <h4 class="resume-item-details">{{ association.role }} &bull; {{ association.year }}</h4>
+        <p class="resume-item-copy">{{ association.summary }}</p>
+      </div>
+      {% endfor %}
+
+    </section>
+    <!-- end Associations -->
     {% endif %} {% if site.resume_section_education %}
     <!-- begin Education -->
     <section class="content-section">
@@ -99,7 +119,7 @@
         <h4 class="resume-item-details" itemprop="description">주요 작업</h4>
         <ul class="resume-item-list"></ul>
         {% for task in project.tasks %}
-          <li>{{ task }}</li>
+        <li>{{ task }}</li>
         {% endfor %}
         </ul>
       </div>
@@ -107,7 +127,7 @@
 
     </section>
     <!-- end Projects -->
-    {% endif %} {% if site.resume_section_skills %}
+    {% endif %} {% if site.resume_section_skills and site.data.skills %}
     <!-- begin Skills -->
     <section class="content-section">
 
@@ -141,27 +161,7 @@
 
     </section>
     <!-- end Recognition -->
-    {% endif %} {% if site.resume_section_associations %}
-    <!-- begin Associations -->
-    <section class="content-section">
-
-      <header class="section-header">
-        <h2>Associations</h2>
-      </header>
-
-      {% for association in site.data.associations %}
-      <div class="resume-item">
-        <h3 class="resume-item-title">
-          <a href="http://beerfortheworld.com">{{ association.organization }}</a>
-        </h3>
-        <h4 class="resume-item-details">{{ association.role }} &bull; {{ association.year }}</h4>
-        <p class="resume-item-copy">{{ association.summary }}</p>
-      </div>
-      {% endfor %}
-
-    </section>
-    <!-- end Associations -->
-    {% endif %} {% if site.resume_section_interests %}
+    {% endif %} {% if site.resume_section_interests and site.data.interests %}
     <!-- begin Interests -->
     <section class="content-section">
 
@@ -179,10 +179,10 @@
 
     </section>
     <!-- end Interests -->
-    {% endif %} {% if site.resume_section_links %}
+    {% endif %}
+     {% if site.resume_section_links and site.data.links %}
     <!-- begin Links -->
     <section class="content-section">
-
       <header class="section-header">
         <h2>Additional Links</h2>
       </header>
@@ -196,7 +196,6 @@
           {% endfor %}
         </ul>
       </div>
-
     </section>
     <!-- end Links -->
     {% endif %} {% if site.resume_print_social_links %}

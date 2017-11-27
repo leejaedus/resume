@@ -25,7 +25,7 @@ resume_section_projects:        true
 resume_section_skills:          true
 resume_section_recognition:     false
 resume_section_links:           true
-resume_section_associations:    false
+resume_section_associations:    true
 resume_social_links:
   resume_github_url:            "https://github.com/leejaedus"
   resume_linkedin_url:          "https://www.linkedin.com/in/%EC%9E%AC%EC%97%B0-%EC%9D%B4-987b00126/"
