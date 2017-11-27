@@ -1,6 +1,16 @@
 // Resume styles
 // ---------------------------------------/
 
+@font-face {
+  font-family: "돋움";
+  src: local("Apple SD Gothic Neo"),
+  local("Nanum Gothic");
+}
+
+* {
+  font-family: "돋움";
+}
+
 // util
 
 .section-header {
