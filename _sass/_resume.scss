@@ -212,6 +212,9 @@
 .print-only {
   display: none !important;
 }
+.print-only-original {
+  display: none !important;
+}
 
 @media print {
   .no-print {
@@ -219,6 +222,9 @@
   }
   .print-only {
     display: block !important;
+  }
+  .print-only-original {
+    display: initial !important;
   }
   body {
     font-size: 12px;
