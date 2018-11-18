@@ -1,5 +1,23 @@
+- project: Gazua
+  duration: 2017.12 &mdash; 현재
+  description: 암호화폐 거래소 자동 거래 봇
+  stack: Python, nodeJS, Typescript
+  tasks:
+    - 거래소 스크립트 분석을 통한 비공식 API 클라이언트 제작
+    - 차트 분석을 통한 가격 적정 매수, 매도 시기 예측
+
+- project: 이음오피스
+  duration: 2018.9 &mdash; 현재
+  stack: Rubu On Rails 4, React, Amazon EC2, Amazon RDS, Amazon S3, mysql, nginx, sidekiq
+  tasks:
+    - ActiveRecord 를 사용해 complex query 작성
+    - N+1 쿼리 문제 해결을 위해 join + includes 최적화
+    - 비동기 작업 및 배치 작업을 위한 sidekiq schedule 관리
+    - capistrano 를 이용한 배포 자동화
+    - AWS 인프라 유지 및 유지보수 담당
+
 - project: 팀 프로젝트 1
-  duration: 2017.8 &mdash; 현재
+  duration: 2017.8 &mdash; 2018.2
   stack: Swift 4, RxSwift, Event Pub/Sub, Realm, GRPC
   tasks:
     - Swift 4 를 사용하여 앱 코드 작성
@@ -9,7 +27,7 @@
     - protocol oriented, extension 적극 활용
     - Snapkit 를 사용하여 View 간의 Auto Layout 관리
 
-- project: 사내 신규 프로젝트 1
+- project: 맺음
   duration: 2017.6 &mdash; 현재
   stack: PHP 7.1, Laravel, React, Webpack, Redux, Amazon EC2, Amazon RDS, Amazon S3, Mysql 5.7
   tasks:
@@ -42,7 +60,7 @@
     - "postgresql: 인덱스를 통한 processing time 최적화"
     - 아임에잇, 이음, 맺음의 전체적인 AWS 인프라 유지 및 유지보수 담당
 
-- project: 아임에잇
+- project: 이음오피스 iOS
   duration: 2016.8 &mdash; 2016.12
   stack: Swift, Objective-C, PromiseKit, Alamofire, Sketch, zeplin
   tasks:

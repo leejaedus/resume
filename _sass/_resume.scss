@@ -146,6 +146,12 @@
 .content-section {
   margin: 0 0 3rem;
 
+  .divider {
+    height: 1px;
+    background: #ddd;
+    margin-top: 2rem;
+  }
+
   .resume-item {
     margin-bottom: 2rem;
   }
@@ -257,6 +263,13 @@
       margin: 1rem 0;
       page-break-inside: avoid;
     }
+
+    .divider {
+      background: #ddd;
+      margin-top: 1rem;
+      height: 5px;
+    }
+
     .resume-item-title {
       font-size: 16px;
       line-height: 1rem;
