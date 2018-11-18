@@ -236,6 +236,10 @@
     font-size: 12px;
     line-height: 1rem;
   }
+  @page {
+      size: a4;
+      margin-top: 15mm;
+  }
   .page-header {
     padding: 1rem 0 0.2rem;
     .header-name {
