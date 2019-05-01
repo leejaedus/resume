@@ -1,6 +1,11 @@
+- company: Viva Republica (Toss)
+  position: Python Backend
+  duration: 2019년 1월 &mdash; 현재
+  summary: -
+
 - company: 이음소시어스
   position: iOS, Backend
-  duration: 2016년 8월 &mdash; 현재
+  duration: 2016년 8월 &mdash; 2019년 1월
   summary: 아임에잇은 한국의 대표적인 소개팅 앱 중 하나로 직장인을 위한 소개팅 서비스입니다. 사용자의 행위에 따라 알고리즘이 적용돼 가장 매칭될 확률이 높은 상대방을 골라줍니다.<br><br>맺음은 아임에잇, 이음의 회원풀을 활용하는 결혼 정보 서비스입니다. 맺음 매니저들을 대상으로 하는 관리자 백오피스가 맺음의 메인 서비스입니다.<br><br>백엔드 개발자로 입사하여 초기 iOS 클라이언트 개발자 인력이 부족해 아임에잇 iOS앱 개발을 맡아 추가 기능 개발, 유지보수 및 Objective-C 에서 Swift 로의 변환 작업을 진행했습니다. 이후 다시 백엔드 개발 인력이 부족해 12월부터 다시 주 포지션인 백엔드 개발자로 돌아왔고 Rails, React 로 개발되어있는 맺음 서비스를 맡아 기능 추가 및 유지보수를 진행하고 있습니다. 또한 AWS 인프라를 관리하고 유지 보수하고 있습니다.
 
 - company: 네고
