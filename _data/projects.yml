@@ -1,13 +1,13 @@
-- project: Gazua
-  duration: 2017.12 &mdash; 현재
-  description: 암호화폐 거래소 자동 거래 봇
-  stack: Python, nodeJS, Typescript
-  tasks:
-    - 거래소 스크립트 분석을 통한 비공식 API 클라이언트 제작
-    - 차트 분석을 통한 가격 적정 매수, 매도 시기 예측
+#- project: Gazua
+#  duration: 2017.12 &mdash; 현재
+#  description: 암호화폐 거래소 자동 거래 봇
+#  stack: Python, nodeJS, Typescript
+#  tasks:
+#    - 거래소 스크립트 분석을 통한 비공식 API 클라이언트 제작
+#    - 차트 분석을 통한 가격 적정 매수, 매도 시기 예측
 
 - project: 이음오피스
-  duration: 2018.9 &mdash; 현재
+  duration: 2018.9 &mdash; 2018.12
   stack: Rubu On Rails 4, React, Amazon EC2, Amazon RDS, Amazon S3, mysql, nginx, sidekiq
   tasks:
     - ActiveRecord 를 사용해 complex query 작성
@@ -38,13 +38,13 @@
     - N+1 쿼리 문제 해결을 위해 join 최적화
     - "mysql: 쿼리 플랜 분석 및 최적화"
 
-- project: 사내 해카톤 프로젝트
-  duration: 2017.9 &mdash; 2017.10
-  stack: React, Webpack, TypeScript, Redux, react-script
-  tasks:
-    - Redux + React 환경 구축
-    - fully Stateless component, fullly redux state 패턴 사용
-    - react-script 를 사용해 TypeScript 로 빌드 설정 및 사용
+#- project: 사내 해카톤 프로젝트
+#  duration: 2017.9 &mdash; 2017.10
+#  stack: React, Webpack, TypeScript, Redux, react-script
+#  tasks:
+#    - Redux + React 환경 구축
+#    - fully Stateless component, fullly redux state 패턴 사용
+#    - react-script 를 사용해 TypeScript 로 빌드 설정 및 사용
 
 - project: 맺음
   duration: 2017.1 &mdash; 현재
@@ -105,7 +105,7 @@
     - 최저가 변동 체크 크롤러 작성
     - GCM, APNS 를 이용한 가격 변동 푸시 알림
 
-- project: 제보페이지 - 오늘뭐먹지?
+- project: 오늘뭐먹지?
   duration: 2015.2 &mdash; 2015.4
   stack: ES5, jQuery, AngularJS, jade, less
   tasks:
@@ -113,14 +113,14 @@
     - 파일업로드 기능을 포함한 제보 API 구축
     - vultr 서버 호스팅
 
-- project: Copyright Game – delopiA
-  duration: 2012.7 &mdash; 2012.9
-  stack: PHP 5.3, ES5, jQuery, bootstrap
-  tasks:
-    - SPA, 저작권 문제들을 미니게임 형식으로 제공합니다.
-
-- project: Wargame - delopiA
-  duration: 2012.3 &mdash; 2012.6
-  stack: PHP 5.3, ES5, jQuery, bootstrap
-  tasks:
-    - 모의 웹 해킹 문제들을 사용자들에게 제공 및 해답, 질문 공유를 위한 게시판 기능을 제공합니다.
+#- project: Copyright Game – delopiA
+#  duration: 2012.7 &mdash; 2012.9
+#  stack: PHP 5.3, ES5, jQuery, bootstrap
+#  tasks:
+#    - SPA, 저작권 문제들을 미니게임 형식으로 제공합니다.
+#
+#- project: Wargame - delopiA
+#  duration: 2012.3 &mdash; 2012.6
+#  stack: PHP 5.3, ES5, jQuery, bootstrap
+#  tasks:
+#    - 모의 웹 해킹 문제들을 사용자들에게 제공 및 해답, 질문 공유를 위한 게시판 기능을 제공합니다.
