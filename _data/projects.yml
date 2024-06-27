@@ -26,6 +26,7 @@
     - Enterprise DB 지원을 위한 Django Model -> DDL 변환 레이어 개발
     - 쿼리 사용처 추적을 위한 라벨링 / 메트릭 수집 설정
     - 서비스별 장애와 오류 발생 상황의 원인을 분석후 해소를 위한 설계 변경 및 최적화
+    - 멀티 EKS 클러스터 운용
 
 - project: Python Chapter Lead
   duration: 2019.6 &mdash; 현재
