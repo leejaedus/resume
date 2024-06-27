@@ -1,14 +1,80 @@
-#- project: Gazua
-#  duration: 2017.12 &mdash; 현재
-#  description: 암호화폐 거래소 자동 거래 봇
-#  stack: Python, nodeJS, Typescript
+
+
+#- project:
+#  duration: &mdash;
+#  description:
+#  stack:
 #  tasks:
-#    - 거래소 스크립트 분석을 통한 비공식 API 클라이언트 제작
-#    - 차트 분석을 통한 가격 적정 매수, 매도 시기 예측
+#    -
+
+- project: 토스 내 SaaS, On-premise 기반의 서드파티 시스템 연동
+  duration: 2020.5 &mdash; 현재
+  description:
+  stack: Django, Django Rest Framework, Python, K8s
+  tasks:
+    - workday, okta, google 전반의 인사 정보 프로비저닝 (workday -> toss -> okta -> slack, google)
+    - 사용자 입력 데이터를 회계 시스템과 연동하기 전 내부 프로세스로 관리하고 결과 데이터를 SAP 시스템과 연동 (RFC, http api)
+    - 서드파티 시스템과의 연동을 위한 웹훅, API 서버 개발
+
+- project: 챕터 생산성 향상을 위한 플랫폼 개발
+  duration: 2019.8 &mdash; 현재
+  description:
+  stack: Django, Django Rest Framework, Python, K8s
+  tasks:
+    - 시스템 가시성 확보를 위한 log middleware 구현
+    - memray, pyinstrument 등의 도구를 통한 어플리케이션 성능 측정 및 최적화
+    - Enterprise DB 지원을 위한 Django Model -> DDL 변환 레이어 개발
+    - 쿼리 사용처 추적을 위한 라벨링 / 메트릭 수집 설정
+    - 서비스별 장애와 오류 발생 상황의 원인을 분석후 해소를 위한 설계 변경 및 최적화
+    -
+- project: Python Chapter Lead
+  duration: 2019.6 &mdash; 현재
+  description:
+  stack: "-"
+  tasks:
+    - 챕터 성장을 위한 세션
+    - 챕터 내 목적 조직을 구성, 목적 조직별 목표 제시 및 활동 지원
+    - 채용 대상에 대한 페르소나 정의와 요소 검증을 위한 역량 기준 정의
+    - 문제 해결 역량 검증을 위한 채용 과제 설계
+
+- project: 팀 내 생산성 향상을 위한 서비스 개발
+  duration: 2019.1 &mdash; 현재
+  description:
+  stack: Django, Django Rest Framework, React, Python, K8S
+  tasks:
+    - 슬랙봇과 웹 UI를 통해 팀 내의 업무 생산성 증가 & 자동화를 위한 도구 개발 수행
+    - Django Rest Framework를 통한 API 서버 개발 수행
+    - K8S를 통한 서비스 배포 및 관리 수행
+    - Django Migration DDL 관리 & online migration
+    - Django ORM을 통한 복잡한 쿼리 작성 및 최적화 수행
+
+- project: 팀 내 생산성 향상을 위한 서비스 개발
+  duration: 2019.1 &mdash; 현재
+  description:
+  stack: Django, Django Rest Framework, React, Python, K8S
+  tasks:
+    - 슬랙봇과 웹 UI를 통해 팀 내의 업무 생산성 증가 & 자동화를 위한 도구 개발 수행
+    - Django Rest Framework를 통한 API 서버 개발 수행
+    - K8S를 통한 서비스 배포 및 관리 수행
+    - Django Migration DDL 관리 & online migration
+    - Django ORM을 통한 복잡한 쿼리 작성 및 최적화 수행
+    - 가시성 확보를 위한 log middleware 구현
+
+- project: 펌뱅킹, 모계좌간 거래내역 대사
+  duration: 2019.1 &mdash; 현재
+  stack: Django, Windows, On-premise(IDC), jenkins, K8S
+  tasks:
+    - v1
+      - 펌뱅킹을 통해 이체시 발생하는 서비스 원장과 법인 소유의 계좌 내역을 매핑하고 오차를 발견해 리포트하는 작업 수행
+      - Jenkins로 django command를 실행하여 매일 자동으로 데이터를 수집하고 처리하는 작업 수행
+      - 중간 집계를 위한 데이터는 하둡에 저장되고 임팔리를 통해 필터와 함께 쿼리 후 어플리케이션에서 인메모리 매핑을 수행
+    - v2
+      - v1에서의 단순 전체 탐색 방식을 은행과 은행 별 필터링 플러그인 주입 방식으로 리팩토링
+      - K8S Cronjob을 통해 은행 별 매핑 수행
 
 - project: 이음오피스
   duration: 2018.9 &mdash; 2018.12
-  stack: Rubu On Rails 4, React, Amazon EC2, Amazon RDS, Amazon S3, mysql, nginx, sidekiq
+  stack: Ruby On Rails 4, React, Amazon EC2, Amazon RDS, Amazon S3, mysql, nginx, sidekiq
   tasks:
     - ActiveRecord 를 사용해 complex query 작성
     - N+1 쿼리 문제 해결을 위해 join + includes 최적화
@@ -48,7 +114,7 @@
 
 - project: 맺음
   duration: 2017.1 &mdash; 현재
-  stack: Rubu On Rails 4, React, Amazon EC2, Amazon RDS, Amazon S3, postgresql, nginx, sidekiq
+  stack: Ruby On Rails 4, React, Amazon EC2, Amazon RDS, Amazon S3, postgresql, nginx, sidekiq
   tasks:
     - 순수 React 를 사용한 어드민 프론트엔드 앱 구축
     - browserify 를 이용한 JSX -> ES5 빌드 규칙 적용
@@ -72,7 +138,7 @@
 
 - project: 네고
   duration: 2016.3 &mdash; 2016.7
-  stack: Amazon ELB + Auto Scailing, Amazon EC2, Amazon RDS, Amazon S3, postgresql, nginx, fabric, gunicorn, Flask, SQLAlchemy, celery, rabbitmq, Swift, Alamofire
+  stack: Amazon ELB + Auto Scaling, Amazon EC2, Amazon RDS, Amazon S3, postgresql, nginx, fabric, gunicorn, Flask, SQLAlchemy, celery, rabbitmq, Swift, Alamofire
   tasks:
     - "Flask 를 이용한 API 구축"
     - "fabric + EC2 를 이용한 배포 자동화"
@@ -87,7 +153,7 @@
 
 - project: Myrics
   duration: 2015.7 &mdash; 2016.2
-  stack: Amazon ELB + Auto Scailing, Amazon EC2, Amazon RDS, Amazon S3, postgresql, nginx, fabric, python2, uwsgi, flask, SQLAlchemy, celery, rabbitmq
+  stack: Amazon ELB + Auto Scaling, Amazon EC2, Amazon RDS, Amazon S3, postgresql, nginx, fabric, python2, uwsgi, flask, SQLAlchemy, celery, rabbitmq
   tasks:
     - "Flask 를 이용한 API 구축"
     - "fabric + EC2 를 이용한 배포 자동화"
