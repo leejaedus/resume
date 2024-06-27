@@ -65,7 +65,8 @@
 
         </section>
         <!-- end Experience -->
-        {% endif %} {% if site.resume_section_associations %}
+        {% endif %}
+        {% if site.resume_section_associations %}
         <!-- begin Associations -->
         <section class="content-section">
 
@@ -89,25 +90,9 @@
 
         </section>
         <!-- end Associations -->
-        {% endif %} {% if site.resume_section_education %}
-        <!-- begin Education -->
-        <section class="content-section">
-            <header class="section-header">
-                <h2>Education</h2>
-            </header>
-
-            {% for education in site.data.education %}
-            <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
-                <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
-                <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
-                <h5 class="resume-item-details award-title" itemprop="description">{{ education.awards }}</h5>
-                <p class="resume-item-copy">{{ education.summary }}</p>
-                <div class="divider"></div>
-            </div>
-            {% endfor %}
-        </section>
-        <!-- end Education -->
-        {% endif %} {% if site.resume_section_projects %}
+        {% endif %}
+        {% endif %}
+        {% if site.resume_section_projects %}
         <!-- begin Projects -->
         <section class="content-section break">
             <header class="section-header">
@@ -137,7 +122,8 @@
 
         </section>
         <!-- end Projects -->
-        {% endif %} {% if site.resume_section_skills and site.data.skills %}
+        {% endif %}
+        {% if site.resume_section_skills and site.data.skills %}
         <!-- begin Skills -->
         <section class="content-section">
 
@@ -153,7 +139,26 @@
 
         </section>
         <!-- end Skills -->
-        {% endif %} {% if site.resume_section_recognition %}
+        {% endif %}
+        {% if site.resume_section_education %}
+        <!-- begin Education -->
+        <section class="content-section">
+            <header class="section-header">
+                <h2>Education</h2>
+            </header>
+
+            {% for education in site.data.education %}
+            <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
+                <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
+                <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
+                <h5 class="resume-item-details award-title" itemprop="description">{{ education.awards }}</h5>
+                <p class="resume-item-copy">{{ education.summary }}</p>
+                <div class="divider"></div>
+            </div>
+            {% endfor %}
+        </section>
+        <!-- end Education -->
+        {% if site.resume_section_recognition %}
         <!-- begin Recognition -->
         <section class="content-section">
 
@@ -171,7 +176,8 @@
 
         </section>
         <!-- end Recognition -->
-        {% endif %} {% if site.resume_section_interests and site.data.interests %}
+        {% endif %}
+        {% if site.resume_section_interests and site.data.interests %}
         <!-- begin Interests -->
         <section class="content-section">
 
@@ -189,7 +195,8 @@
 
         </section>
         <!-- end Interests -->
-        {% endif %} {% if site.resume_section_links and site.data.links %}
+        {% endif %}
+        {% if site.resume_section_links and site.data.links %}
         <!-- begin Links -->
         <section class="content-section">
             <header class="section-header">
@@ -207,7 +214,8 @@
             </div>
         </section>
         <!-- end Links -->
-        {% endif %} {% if site.resume_print_social_links %}
+        {% endif %}
+        {% if site.resume_print_social_links %}
 
         <footer class="page-footer">
             <p class="footer-line">Jaeyeon Lee</p>
