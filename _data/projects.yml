@@ -13,10 +13,10 @@
   stack: Django, Django Rest Framework, Python, K8S
   tasks:
     - workday, okta, google 전반의 인사 정보 프로비저닝 (workday -> toss -> okta -> slack, google)
-    - 사용자 입력 데이터를 회계 시스템과 연동하기 전 내부 프로세스로 관리하고 결과 데이터를 SAP 시스템과 연동 (RFC, http api)
+    - 사용자 입력 데이터를 정의된 내부 프로세스로 관리하고 결과 데이터를 SAP 시스템과 연동 (RFC, http api)
     - 서드파티 시스템과의 연동을 위한 웹훅, API 서버 개발
 
-- project: 챕터 생산성 향상을 위한 플랫폼 개발
+- project: 챕터, 인터널 시스템 생산성 향상을 위한 플랫폼 개발
   duration: 2019.8 &mdash; 현재
   description:
   stack: Django, Django Rest Framework, Python, K8S
@@ -28,6 +28,7 @@
     - 서비스별 장애와 오류 발생 상황의 원인을 분석후 해소를 위한 설계 변경 및 최적화
     - 멀티 EKS 클러스터 운용
     - ad, okta 등의 multi idp 지원을 위한 인증 및 oauth gateway 구현, 유지보수
+    - 및 기타 엔지니어링 지원 업무 수행
 
 - project: Python Chapter Lead
   duration: 2019.6 &mdash; 현재
