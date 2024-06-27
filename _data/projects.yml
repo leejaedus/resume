@@ -10,7 +10,7 @@
 - project: 토스 내 SaaS, On-premise 기반의 서드파티 시스템 연동
   duration: 2020.5 &mdash; 현재
   description:
-  stack: Django, Django Rest Framework, Python, K8s
+  stack: Django, Django Rest Framework, Python, K8S
   tasks:
     - workday, okta, google 전반의 인사 정보 프로비저닝 (workday -> toss -> okta -> slack, google)
     - 사용자 입력 데이터를 회계 시스템과 연동하기 전 내부 프로세스로 관리하고 결과 데이터를 SAP 시스템과 연동 (RFC, http api)
@@ -19,7 +19,7 @@
 - project: 챕터 생산성 향상을 위한 플랫폼 개발
   duration: 2019.8 &mdash; 현재
   description:
-  stack: Django, Django Rest Framework, Python, K8s
+  stack: Django, Django Rest Framework, Python, K8S
   tasks:
     - 시스템 가시성 확보를 위한 log middleware 구현
     - memray, pyinstrument 등의 도구를 통한 어플리케이션 성능 측정 및 최적화
